@@ -1,4 +1,4 @@
-// require('.env').config();
+require('.env').config();
 const { Client, GatewayIntentBits, Partials, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionsBitField, ChannelType } = require('discord.js');
 const client = new Client({
   intents: [
