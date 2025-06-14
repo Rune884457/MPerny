@@ -1,0 +1,4 @@
+.env
+Git/*
+node_modules/*
+*lock*

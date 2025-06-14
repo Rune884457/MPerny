@@ -1,0 +1,16 @@
+{
+  "name": "mijn-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.js",
+  "scripts": {
+    "start": "node Index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.19.3"
+  },
+  "devDependencies": {}
+}
