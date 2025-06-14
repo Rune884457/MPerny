@@ -11,7 +11,7 @@ const client = new Client({
   partials: [Partials.Channel]
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.DISCORD_TOKEN);
 
 // ✅ Bot klaar
 client.once('ready', () => {
