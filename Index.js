@@ -197,5 +197,3 @@ client.on('interactionCreate', async interaction => {
     await interaction.reply({ content: '❌ Er ging iets mis met het maken van het ticket.', ephemeral: true });
   }
 });
-
-client.login('client.login(process.env.DISCORD_TOKEN);');
