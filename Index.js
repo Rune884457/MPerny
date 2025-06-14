@@ -1,5 +1,5 @@
-const { Client, GatewayIntentBits, Partials, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionsBitField, ChannelType } = require('discord.js');
 require('dotenv').config(); // helemaal bovenaan in Index.js
+const { Client, GatewayIntentBits, Partials, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionsBitField, ChannelType } = require('discord.js');
 
 const client = new Client({
   intents: [
