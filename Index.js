@@ -1,3 +1,4 @@
+const { Client, GatewayIntentBits, Partials, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionsBitField, ChannelType } = require('discord.js');
 require('dotenv').config(); // helemaal bovenaan in Index.js
 
 const client = new Client({
@@ -11,7 +12,6 @@ const client = new Client({
 });
 
 client.login(process.env.TOKEN);
-const { Client, GatewayIntentBits, Partials, ActionRowBuilder, ButtonBuilder, ButtonStyle, PermissionsBitField, ChannelType } = require('discord.js');
 
 // ✅ Bot klaar
 client.once('ready', () => {
